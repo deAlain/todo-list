@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block body %}
+<body>
+	<div id="main-container">
+	</div>
+	{% for task in tasks %}
+		<p>{{ task.text }}</p>
+	{% endfor %}
+</body>
+{% endblock %}
+
+

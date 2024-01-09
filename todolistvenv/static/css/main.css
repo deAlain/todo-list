@@ -1,0 +1,75 @@
+.brandName{
+	font-size: 45px;
+	font-family: Caveat
+}
+p.description {
+	font-size: 18px
+}
+p.status {
+	font-size: 14px;
+	margin: 0 50px;
+}
+.badge{
+	margin: 5px 2px;
+}
+
+p.card-text{
+	cursor: pointer;
+}
+.logo, .cite, .login-register{
+	min-height: 100px;
+	background: lavender;
+	border: none;
+}
+body{
+	background: lavender;
+}
+.body{
+	margin: 30px 0;
+}
+.error-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+.error-actions {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.error-actions .btn {
+	margin-right:10px;
+}
+.card-block {
+    min-height: 300px;
+	padding: 5px;
+	border-radius: 5%;
+}
+.todolist {
+    height: inherit;
+	margin-top: 50px;
+}
+.card-title{
+	margin: 10px;
+}
+.card-text{
+	margin: 10px 0px;
+	font-size: 12px;
+}
+.card-footer > button{
+	margin: 3px 0;
+}
+.card-footer > button:first-child{
+	border-radius: 5px 0 0 5px;
+}
+.card-footer > button:last-child{
+	border-radius: 0 5px 5px 0;
+}
+.gradient-custom-3 {
+	background: #84fab0;
+	background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+	background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+.gradient-custom-4 {
+	background: #84fab0;
+	background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+	background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}

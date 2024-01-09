@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		
+		<title>{% block title %}{% endblock %}</title>
+		<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+		<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+		<script crossorigin src="https://unpkg.com/react-hook-form@7.49.2/dist/index.umd.js"></script>
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		
+		<link rel="stylesheet" href="{{ url_for('static', filename = 'css/main.css') }}">
+	</head>
+	
+	{% block body %}{% endblock %}
+	<script type="text/babel" src="{{ url_for('static', filename = 'js/index.jsx') }}"></script>
+</html>
